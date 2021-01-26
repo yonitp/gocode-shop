@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  //title = 'gocode-shop';
+  //title = 'gocode-shop :)';
   title = 'Tour of Heroes';
   onSave(){
     console.log("Saved!!");
