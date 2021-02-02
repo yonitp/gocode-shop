@@ -1,0 +1,21 @@
+
+<div>
+ <label><h2>{{title}}</h2>
+  <input [(ngModel)]="title" placeholder="title"/>
+ </label>
+</div>
+<section class="products">
+    <div *ngFor="let product of product" class="product-card">
+      <div class="product-image">
+        <img
+          src={{product.image}}
+        />
+      </div>
+      <div class="product-info">
+        <h5>{{product.title}}</h5>
+        <h6>${{product.price}}</h6>
+      </div>
+    </div>
+</section>
+
+
