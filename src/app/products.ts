@@ -1,9 +1,11 @@
-//import { Url } from "url";
-export interface Product {
+export interface Products {
   id: number;
-  title: String;
+  title: string;
+  description: string;
   price: number;
-  description: String;
-  category: String;
-  image: String;
+  category: string;
+  image: string;
+  isFavorite: number;
+  sellNo: number;
+  openDate: number;
 }

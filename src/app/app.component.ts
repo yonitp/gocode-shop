@@ -5,11 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
-  //title = 'gocode-shop :)';
-  selectedCategory = '';
-  title = 'Tour of Heroes';
-  onSave() {
-    console.log('Saved!!');
-  }
-}
+export class AppComponent {}

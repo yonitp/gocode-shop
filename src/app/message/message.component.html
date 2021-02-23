@@ -1,0 +1,9 @@
+<div class="messagesDiv" *ngIf="messageService.messages.length">
+  <div class="messagesH">
+    <div class="clear fa fa-times" (click)="messageService.clear()"></div>
+    <div class="messagesTitle">Messages</div>
+  </div>
+  <div class="messagesText" *ngFor="let message of messageService.messages">
+    {{ message }}
+  </div>
+</div>
